@@ -1,0 +1,107 @@
+body {
+    font-family: clarely,Sans-Serif ;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.bhmpics.com/downloads/greenery-wallpaper/27.olive-greenery-motion-vector-green-background-wallpaper-ecology-leaf-concept-swamp-foliage-flying-template-leaves-wind-pattern_88865-625.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+   text-align: center;
+    width:30% auto;
+    height:200px;
+    color:black;
+}
+    nav {
+        color:white;
+        text-align: left;
+    }
+    
+
+    nav ul {
+        
+        color:white;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        color: white;
+        margin-left: 50px; /* Adjust the spacing between links */
+    }
+    
+    nav ul li a {
+        color:black;
+        text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+    
+.about{
+    
+    color:brown;
+
+}
+.btn {
+    display: inline-block;
+    background-color: grey;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.footer {
+    background-color: brown;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.product-description {
+    background-color: black;
+    border: 10px solid #ddd;
+    border-radius: 35px;
+    padding: 200px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-description h3 {
+    margin-top: 7;
+}
+
+.product-description p {
+    margin-bottom: 100px;
+}
+.about-section {
+    background-color:bisque;
+    color:black;
+    padding: 20px;
+    text-align: center;
+}
+.product-container {
+    display: flex;
+   flex-wrap: wrap;
+ /* Allows products to wrap onto new lines if they exceed container width */
+    justify-content: left;
+
+    width: 2000px; /* Aligns products horizontally in the center */
+}
+.product-image :hover {
+     transform: scaleY(1.0);/* Increase image size on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.product-image :active {
+    transform: scale(0.9); /* Reduce image size on click */
+}
+
+
+
+.btn:hover {
+    background-color:blue;
+}
